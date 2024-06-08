@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" content="">
+    <title>Netflix Brasil</title>
+    <link rel="icon" href="./assets/images/227_Netflix_logo-512.webp" type="image/x-icon">
+    <link href="./assets/style/style.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="./assets/images/Netflix_2015_logo.svg.png" id="logo">
+            <div id="nav">
+                <select class="opt-language">
+                    <option>Português</option>
+                    <option>Inglês</option>
+                </select>
+                <button id="but-enter">Entrar</button>
+            </div>
+        </div>
+        <div id="main">
+            <h1 id="main-txt">Filmes, séries e muito mais, sem limites</h1>
+            <h3 id="subtitle-main">Assista onde quiser, cancele quando quiser</h3>
+            <h4>Quer assistir? Assine seu e-mail para criar ou reiniciar sua assinatura</h4>
+            <form id="subscribe">
+                <input type="email" placeholder="Email" id="input">
+                <button class="btn-start">Vamos lá ></button>
+            </form>
+        </div>
+        <div class="box-container">
+            <div class="txt-box">
+                <div class="box">
+                    <h1>Aproveite na TV</h1>
+                    <h3 class="h3-box">Assista em Smart TVs, Playstation, Xbox,<br> Apple TV, aparelhos de Blu-ray e outros dispositivos.</h3>
+                </div>
+                <video data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4" id="video">
+                </video>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="txt-box">
+                <div class="box" id="box2">
+                    <h1>Assista em todos os lugares</h1>
+                    <h3 class="h3-box">Transmita filmes e programas de TV ilimitados em seu telefone,<br>tablet, laptop e TV.
+                    </h3>
+                </div>
+                <img src="./assets/images/image1_0.jpg" id="img-box2">
+            </div>
+        </div>
+        <div class="box-container" id="box-container-3">
+            <div class="txt-box">
+                <div class="box" id="box3">
+                    <div>
+                        <h1>Crie pefis para crianças</h1>
+                        <h3 class="h3-box" id="h3-box-3">Envie as crianças em aventuras com seus personagens favoritos<br>em um espaço feito especialmente para elas – gratuitamente com sua assinatura.</h3>
+                    </div>
+                    <div id="txt-box3">
+                        <h2>A Netflix que você adora por apenas R$ 20,90.</h2>
+                        <h3 class="h3-box">Assine o plano Padrão com anúncios.</h3>
+                    </div>
+                </div>
+                <img alt="" src="./assets/images/imageIA.jpg" id="img-box3">
+        </div>
+    </div>
+    <div class="tape"></div>
+
+    <div id="duvidas-frequentes">Dúvidas frequentes</div>
+
+    <div id="box-container-4">
+        <div id="aks">
+            <botton class="ask" onclick="ToggleMenu()">
+                <botton class="ask-division">
+                    <div class="ask-txt">O que é a Netflix?</div>
+                    <div class="plus">+</div>
+                </botton>
+            </botton>
+            <botton class="ask" onclick="ToggleMenu()">
+                <botton class="ask-division">
+                    <div class="ask-txt">Quanto custa a Netflix?</div>
+                    <div class="plus">+</div>
+                </botton>
+            </botton>
+            <botton class="ask" onclick="ToggleMenu()">
+                <botton class="ask-division">
+                    <div class="ask-txt">Onde posso assistir?</div>
+                    <div class="plus">+</div>
+                </botton>
+            </botton>
+            <botton class="ask" onclick="ToggleMenu()">
+                <botton class="ask-division">
+                    <div class="ask-txt">Como faço para cancelar?</div>
+                    <div class="plus">+</div>
+                </botton>
+            </botton>
+            <botton class="ask" onclick="ToggleMenu()">
+                <botton class="ask-division">
+                    <div class="ask-txt">O que posso assistir na Netflix?</div>
+                    <div class="plus">+</div>
+                </botton>
+            </botton>
+            <botton class="ask" onclick="ToggleMenu()">
+                <botton class="ask-division">
+                    <div class="ask-txt">A Netflix é adequada para crianças?</div>
+                    <div class="plus">+</div>
+                </botton>
+            </botton>
+        </div>
+    </div>
+
+    <div id="email-2">
+        <div id="email-2-txt">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</div>
+        <form class="subscribe" id="btn-start-2">
+            <input type="email" placeholder="Email" id="input">
+            <button class="btn-start">Vamos lá ></button>
+        </form>
+    </div>
+    
+    <div class="tape"></div>
+
+    <div id="final-txt">
+        <div id="duvidas">Dúvidas? Ligue <a href="tel:0800 591 2876">0800 591 2876</a></div>
+        <nav class="final-container">
+            <div id="final-line-1" class="final-line">
+                <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Perguntas frequentes</a></div>
+                <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Relações com investidores</a></div>
+                <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Formas de assistir</a></div>
+                <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Informações corporativas</a></div>
+            </div>
+                <div id="final-line-2" class="final-line">
+                    <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Central de ajuda</a></div>
+                    <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Carreiras</a></div>
+                    <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Termos de uso</a></div>
+                    <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Entre em contato</a></div>
+                </div>
+                <div id="final-line-3" class="final-line">
+                    <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Conta</a></div>
+                    <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Resgatar cartão pré-pago</a></div>
+                    <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Privacidade</a></div>
+                    <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Teste de velocidade</a></div>
+                </div>
+                <div id="final-line-4" class="final-line">
+                    <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Midia Center</a></div>
+                    <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Comprar cartão pré-pago</a></div>
+                    <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Preferências de cookies</a></div>
+                    <div class="lines-0"><a href="https://help.netflix.com/pt" class="lines">Avisos legais</a></div>
+            </div>
+        </nav>
+        <div class="final-container" id="final-container-2">
+            <div id="final-line-5" class="final-line">
+                <div class="lines-0"><a href="https://help.netflix.com/pt">Só na Netflix</a></div>
+        </div>
+    </div>
+    <div>
+        <select class="opt-language" id="language-2">
+            <option>Português</option>
+            <option>Inglês</option>
+        </select>
+    </div>
+    <div class="lines-0" id="Netflix-Brasil">Netflix Brasil</div>
+    <script src="script.js"></script>
+</body>
+</html>
